@@ -4,7 +4,7 @@ import {Provider} from 'react-redux'
 
 import Local from "./pages/local";
 import Movies from "./pages/movies";
-import Store from "./pages/store";
+import Counter from "./pages/counter";
 import Posts from "./pages/posts";
 import Navbar from "./pages/navbar";
 import Home from "./pages/home";
@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="local" element={<Local/>} />
         <Route path="movies" element={<Movies/>} />
-        <Route path="store" element={<Store/>} />
+        <Route path="counter" element={<Counter/>} />
         <Route path="posts" element={<Posts/>} />
         <Route path="mobiles" element={<Mobiles/>} />
       </Routes>

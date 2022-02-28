@@ -25,8 +25,8 @@ function Navbars() {
           <Navbar.Collapse>
             <Nav id="basic-navbar">
               <Nav.Link>
-                <NavLink to="store" style={navLinkStyle}>
-                  Store
+                <NavLink to="counter" style={navLinkStyle}>
+                  Counter
                 </NavLink>
               </Nav.Link>
               <Nav.Link>
